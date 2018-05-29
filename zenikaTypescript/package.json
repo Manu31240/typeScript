@@ -1,0 +1,38 @@
+{
+  "name": "angular2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^2.4.1",
+    "gulp-tslint": "^7.1.0",
+    "gulp-typescript": "^3.1.5",
+    "gulp-uglify": "^2.0.1",
+    "tslint": "^4.4.2",
+    "typescript": "^2.1.6"
+  },
+  "devDependencies": {
+    "@types/core-js": "^0.9.34",
+    "@types/node": "^7.0.7",
+    "@types/sinon": "^5.0.0",
+    "ava": "^0.25.0",
+    "sinon": "^5.0.10",
+    "tslint": "^4.5.1",
+    "typescript": "^2.8.3"
+  },
+  "scripts": {
+    "build": "tsc src/**/*.ts",
+    "test": "ava src/__tests__/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manu31240/Angular2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Manu31240/Angular2/issues"
+  },
+  "homepage": "https://github.com/Manu31240/Angular2#readme"
+}
