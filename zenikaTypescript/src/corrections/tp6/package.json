@@ -1,6 +1,6 @@
 {
-  "name": "TP1",
-  "version": "0.0.1",
+  "name": "TP",
+  "version": "1.0.0",
   "description": "TP1 de la formation typescript de Zenika",
   "main": "index.js",
   "scripts": {
@@ -13,6 +13,7 @@
   "author": "Zenika",
   "license": "Unlicense",
   "devDependencies": {
+    "@types/lodash": "^4.14.108",
     "@types/node": "7.0.10",
     "@types/sinon": "^4.3.3",
     "ava": "^0.25.0",
@@ -20,5 +21,8 @@
     "sinon": "^5.0.7",
     "tslint": "^5.10.0",
     "typescript": "^2.8.3"
+  },
+  "dependencies": {
+    "lodash": "4.17.4"
   }
 }
